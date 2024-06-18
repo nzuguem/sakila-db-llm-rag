@@ -11,7 +11,7 @@ The API lets you query the Sakila database using natural language.
 ## Prerequisites
 
 - [Install Ollama on your computer][ollama-install-guide] : To run an LLM model locally
-    - Run ***[gemma][ollama-gemma]***
+    - Run ***[llama3][ollama-llama3]***
 - Have docker installed on your computer : For devservices based on Testcontainers
 
 ## Launch the application
@@ -59,5 +59,5 @@ scripts/run-sql.sh "select * from actor where last_name like 'BALL'"
 
 <!-- Links -->
 [ollama-install-guide]: https://ollama.com/download
-[ollama-gemma]: https://ollama.com/library/gemma
+[ollama-llama3]: https://ollama.com/library/llama3
 [sakila-schema-sql]: https://dataedo.com/samples/html/Sakila/
